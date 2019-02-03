@@ -55,7 +55,7 @@ int WINAPI WinMain(HINSTANCE hinstance,HINSTANCE hPrevInstance,LPSTR IpCmdLine,i
 
 		}
 		
-
+		WaitVSync(1);
 			ScreenFlip();
 			ClearDrawScreen();
 	}
